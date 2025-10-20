@@ -1,0 +1,22 @@
+App(
+    appid="qidi_filament_nfc",
+    name="QidiBox Filament",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="qidi_rfid_app",
+    sources=[
+        "qidi_rfid_app.c",
+        "qidi_rfid_nfc.c",
+        "scenes/*.c",
+    ],
+    requires=[
+        "gui",
+        "nfc",
+    ],
+    stack_size=4 * 1024,
+    fap_category="NFC",
+    fap_icon="qidi_rfid.png",
+    fap_description="Read and write RFID tags for QidiBox filament management system",
+    fap_author="Alex Kilimnik",
+    fap_version="0.1",
+    fap_weburl="https://github.com/alexk42/qidi-filament-nfc-flipper",
+)

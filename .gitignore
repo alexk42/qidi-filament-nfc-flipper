@@ -1,0 +1,7 @@
+*.fap
+*.elf
+*.d
+*.o
+build/
+.vscode/
+.DS_Store

@@ -1,0 +1,6 @@
+ADD_SCENE(qidi_rfid, start, Start)
+ADD_SCENE(qidi_rfid, read, Read)
+ADD_SCENE(qidi_rfid, material_select, MaterialSelect)
+ADD_SCENE(qidi_rfid, color_select, ColorSelect)
+ADD_SCENE(qidi_rfid, write, Write)
+ADD_SCENE(qidi_rfid, about, About)
