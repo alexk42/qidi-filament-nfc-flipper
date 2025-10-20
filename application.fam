@@ -17,6 +17,6 @@ App(
     fap_icon="qidi_rfid.png",
     fap_description="Read and write RFID tags for QidiBox filament management system",
     fap_author="Alex Kilimnik",
-    fap_version="0.1",
+    fap_version="0.2",
     fap_weburl="https://github.com/alexk42/qidi-filament-nfc-flipper",
 )

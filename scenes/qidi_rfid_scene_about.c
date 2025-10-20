@@ -10,7 +10,7 @@ void qidi_rfid_scene_about_on_enter(void* context) {
         0,
         128,
         64,
-        "QidiBox Filament v0.1\n"
+        "QidiBox Filament v0.2\n"
         "\n"
         "Read and write RFID tags\n"
         "for QidiBox filament\n"

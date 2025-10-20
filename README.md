@@ -69,4 +69,5 @@ This is an unofficial third-party application. It is not affiliated with, endors
 
 ## Version
 
+0.2 - Hexadecimal fix (current)
 0.1 - Initial release
