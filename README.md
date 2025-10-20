@@ -37,14 +37,16 @@ This app is designed to be built as part of the Flipper Zero firmware build syst
 
 Specifications based on the [QIDI RFID Tag Guide](https://wiki.qidi3d.com/en/QIDIBOX/RFID).
 
+**Important Note**: The QIDI Wiki lists material and color codes in decimal format, but the actual RFID tags use hexadecimal encoding. This app automatically handles the conversion (e.g., Wiki shows "11" for ABS, which is written as 0x0B in hex).
+
 - **Tag Type**: MIFARE Classic 1K (FM11RF08S chip)
 - **Frequency**: 13.56 MHz
 - **Protocol**: ISO/IEC 14443-A
 - **Authentication**: Default MIFARE keys (FF FF FF FF FF FF)
 - **Data Location**: Sector 1, Block 0 (absolute block 4)
 - **Data Format**: 3 bytes
-  - Byte 0: Material code
-  - Byte 1: Color code
+  - Byte 0: Material code (hexadecimal)
+  - Byte 1: Color code (hexadecimal)
   - Byte 2: Manufacturer code (set to 1)
 
 ## Supported Materials
