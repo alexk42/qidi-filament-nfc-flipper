@@ -35,6 +35,8 @@ This app is designed to be built as part of the Flipper Zero firmware build syst
 
 ## Technical Details
 
+Specifications based on the [QIDI RFID Tag Guide](https://wiki.qidi3d.com/en/QIDIBOX/RFID).
+
 - **Tag Type**: MIFARE Classic 1K (FM11RF08S chip)
 - **Frequency**: 13.56 MHz
 - **Protocol**: ISO/IEC 14443-A
